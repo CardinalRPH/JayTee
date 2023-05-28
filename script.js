@@ -3,6 +3,10 @@ let fronts = document.querySelectorAll(".front");
 let backs = document.querySelectorAll(".back");
 let replay_btn = document.querySelector(".replay");
 
+document.getElementById("linkref").addEventListener('click', () => {
+	window.location = "https://www.instagram.com/jati.admaja/";
+})
+
 const mirrorTL = gsap.timeline();
 const titleTL = gsap.timeline();
 
